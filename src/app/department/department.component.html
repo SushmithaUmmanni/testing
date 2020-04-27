@@ -1,0 +1,12 @@
+<!-- <p>department works!</p> -->
+<h3>
+    Department List
+</h3>
+<ol class="items">
+    <li (click)="onSelect(department)" *ngFor="let department of departments">
+
+        <span class="badge"><button>{{department.name}}</button></span>
+        <pre></pre>
+     
+    </li>
+</ol> 
